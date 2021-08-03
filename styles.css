@@ -1,0 +1,135 @@
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+header img {
+  height: 50px;
+}
+header {
+  max-height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+}
+
+header li {
+  list-style: none;
+  display: inline-flex;
+  text-decoration: underline;
+  margin-right: 20px;
+}
+
+.menu {
+  position: absolute;
+  right: 30px;
+  top: 0px;
+}
+.mission {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(resources/img-mission-background.jpg);
+  width: 1200px;
+}
+.over {
+  text-align: center;
+  background-color: black;
+  width: 1200px;
+  margin-top: 0px;
+}
+.container-mission {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+.hidden {
+  display: none;
+}
+span {
+  position: relative;
+  left: 590px;
+}
+span:hover {
+  cursor: pointer;
+}
+li:hover {
+  cursor: pointer;
+}
+.container-featured {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+#featured {
+  text-align: center;
+  width: 1000px;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.images img {
+  max-width: 300px;
+  max-height: 200px;
+}
+figure {
+  margin: 0px;
+}
+figcaption {
+  padding: 10px;
+}
+a {
+  color: seashell;
+}
+.container-locations {
+  display: flex;
+  justify-content: center;
+}
+.locations-image {
+  background-image: url(resources/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.location-1,
+.location-2,
+.location-3 {
+  width: 300px;
+  background-color: black;
+  margin-right: 40px;
+  position: relative;
+  right: 40px;
+}
+.locations {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.heading-locations {
+  position: relative;
+  bottom: 200px;
+  left: 550px;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.contact div {
+  text-align: center;
+  height: 200px;
+}
+footer div p {
+  padding-left: 20px;
+  font-size: smaller;
+}
